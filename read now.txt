@@ -1,0 +1,25 @@
+Once downloaded extract the files into a folder.
+
+https://drive.google.com/drive/folders/1z49q-8xkKu8N8VjdemYKTs_4IbzBeLWM?usp=sharing 
+
+Place AngularCrud folder in a location where you can remember the path. I placed it in C:\Projects\
+
+Run CommandPrompt as an Administrator
+
+Navigate to AngularCrud project folder where you have the source code. I use the following command for that.
+cd c:\Projects\AngularCrud
+
+Execute the following npm install command to install all the required npm packages. Depending on your internet connection speed, this may take a few minutes.
+npm install
+
+Once all the npm packages are installed, execute the following command to open the project in Visual Studio Code Code .
+
+At this point you will have the project opened in Visual Studio Code.
+
+Open Integrated Terminal in Visual Studio Code by clicking on "View" menu and then "Integrated Terminal"
+
+Execute the following command to start JSON SERVER
+json-server --watch db.json
+
+Now in the command prompt window or in another Visual Studio Code integrated terminal execute the following command to run the project
+ng s -o
